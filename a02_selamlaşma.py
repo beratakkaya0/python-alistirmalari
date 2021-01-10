@@ -14,7 +14,8 @@ aynı görevi farklı bir yöntemle yapman gerekiyor.
 Sadece ### ile işaretlenmiş bölgeler arasına kod 
 yazabilirsin.
 """
-
+isim=değeral("Merhaba, ben Python. Senin adın ne?\n")
+selamlama_yazısı=f"Merhaba {isim}."
 
 
 
