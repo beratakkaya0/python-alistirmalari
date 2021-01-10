@@ -20,15 +20,12 @@ Sadece ### ile işaretlenmiş bölgeler arasına kod
 yazabilirsin.
 """
 ####################################################
-
-
-
-
-
-
+isim=değeral("Adınızı giriniz: ")
+doğum_yılı=tamsayı(değeral("Doğum yılınzı giriniz: "))
+yaş=yazı(şimdiki_yıl-doğum_yılı)
 
 
 ###################################################
 
-sonuç = yaş + "yaşındasın " + isim + "."
+sonuç = yaş + " yaşındasın " + isim + "."
 yazdır(sonuç)
