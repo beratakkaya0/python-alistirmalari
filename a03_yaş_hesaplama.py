@@ -9,7 +9,26 @@ from datetime import datetime
 
 şimdiki_yıl = datetime.now().year
 #################################
-isim=değeral("Adınızı giriniz: ")
-doğum_yılı=tamsayı(değeral("Doğum yılınzı giriniz: "))
-yaş=şimdiki_yıl-doğum_yılı
-yazdır(f"{yaş} yaşındasın {isim}")
+# isim=değeral("Adınızı giriniz: ")
+# doğum_yılı=tamsayı(değeral("Doğum yılınzı giriniz: "))
+# yaş=şimdiki_yıl-doğum_yılı
+# yazdır(f"{yaş} yaşındasın {isim}")
+
+"""Görevin ilk aşamasını başarıyla tamamladın. Şimdi
+aynı görevi farklı bir yöntemle yapman gerekiyor. 
+Sadece ### ile işaretlenmiş bölgeler arasına kod 
+yazabilirsin.
+"""
+####################################################
+
+
+
+
+
+
+
+
+###################################################
+
+sonuç = yaş + "yaşındasın " + isim + "."
+yazdır(sonuç)
