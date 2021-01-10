@@ -11,6 +11,8 @@ Alan 6.25
 from turkish import *
 
 #################################
+uzunluk=noktalısayı(değeral("Bahçenin bir kenar uzunluğunu giriniz: "))
+alan=uzunluk*uzunluk
 
 
 
