@@ -30,6 +30,10 @@ Alan: 28.27
 
 from math import pi
 ##################################
+r=noktalısayı(değeral("Dairenin yarıçapını giriniz: "))
+alan=pi*r**2
+
+
 
 
 
