@@ -47,8 +47,8 @@ Alan: 3.89
 """
 
 #################################
-
-
+kenar=noktalısayı(değeral("Eşkenar üçgenin bir kenar uzunluğunu giriniz: "))
+alan=kenar**2* karekök(3)/4
 
 
 
