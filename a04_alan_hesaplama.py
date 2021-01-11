@@ -28,15 +28,33 @@ Dairenin yarıçapını giriniz: 3
 Alan: 28.27
 """
 
-from math import pi
+# from math import pi
 ##################################
-r=noktalısayı(değeral("Dairenin yarıçapını giriniz: "))
-alan=pi*r**2
-
-
-
-
+# r=noktalısayı(değeral("Dairenin yarıçapını giriniz: "))
+# alan=pi*r**2
 
 ##################################
+
+"""Görevin ikinci aşamasını başarıyla tamamladın. Son aşamada
+bir kenar uzunluğu verilen eşkenar üçgenin alanını hesaplaman
+gerekiyor. Kenar uzunluğu a olan bir üçgenin alanı 
+a² * √3 / 4'tür.
+Bir sayının karekökünü hesaplamak için "karekök" fonksiyonunu
+kullanabilirsin.
+
+Eşkenar üçgenin bir kenar uzunluğunu giriniz: 3
+Alan: 3.89
+"""
+
+#################################
+
+
+
+
+
+
+
+
+################################
 
 yazdır(f"Alan: {alan:.2f}")
