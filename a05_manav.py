@@ -9,7 +9,7 @@ Elmanın kilosu ... lira, muzun kilosu ... lira.
 Kaç kilo elma alacaksınız? ...
 Kaç kilo muz alacaksınız? ...
 Toplam ... TL tuttu.
-Kaç para veriyorsunuz? ...
+Kaç TL veriyorsunuz? ...
 Para üstünüz ... TL'dir.
 Yine bekleriz.
 """
@@ -20,11 +20,13 @@ elma_kg = 2.5
 muz_kg = 8
 
 ##########################################
-
-
-
-
-
+yazdır(f"Elmanın kilosu {elma_kg} lira, muzun kilosu {muz_kg} lira.")
+elma=noktalısayı(değeral("Kaç kilo elma alacaksınız? "))
+muz=noktalısayı(değeral("Kaç kilo muz alacaksınız? "))
+toplam=elma*elma_kg+muz*muz_kg
+yazdır(f"Toplam {toplam} TL tuttu")
+para=noktalısayı(değeral("Kaç TL veriyorsunuz? "))
+para_üstü=para-toplam
 
 ##########################################
 
