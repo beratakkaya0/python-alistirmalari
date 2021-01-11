@@ -9,7 +9,8 @@ Her bir çocuğa 20 TL düşüyor.
 from turkish import *
 
 ################################################
-
+para=noktalısayı(değeral("Kaç paran var Abidin?\n "))
+kişi_başı_para=para/4/3
 
 
 
@@ -21,4 +22,4 @@ from turkish import *
 
 #################################################
 
-yazdır("Her bir çocuğa {kişi_başı_para:.3g} TL düşüyor")
+yazdır(f"Her bir çocuğa {kişi_başı_para:.3g} TL düşüyor")
