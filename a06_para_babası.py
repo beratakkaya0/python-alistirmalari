@@ -29,3 +29,13 @@ Helin 20 TL alacak.
 Selin 28 TL alacak.
 Pelin 16 TL alacak.
 """
+helin=tamsayı(değeral("Helin kaç yaşında? "))
+selin=tamsayı(değeral("Selin kaç yaşında? "))
+pelin=tamsayı(değeral("pelin kaç yaşında? "))
+para=noktalısayı(değeral("Kaç paran var Abidin? "))
+heline_düşen_para=para/4/(helin+selin+pelin)*helin
+seline_düşen_para=para/4/(helin+selin+pelin)*selin
+peline_düşen_para=para/4/(helin+selin+pelin)*pelin
+yazdır(f"Helin {heline_düşen_para} TL alacak.")
+yazdır(f"Selin {seline_düşen_para} TL alacak.")
+yazdır(f"Pelin {peline_düşen_para} TL alacak.")
