@@ -13,3 +13,9 @@ from turkish import *
 
 #############################################
 
+yaş=değeral("Kaç yaşındasınız? ")
+if yaş>=18:
+    yazdır("Oy kullanabilirsiniz.")
+else:
+    yazdır("Oy kullanamazsınız.")
+
