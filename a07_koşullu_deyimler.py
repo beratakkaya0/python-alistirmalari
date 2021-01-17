@@ -54,3 +54,23 @@ Birinci sayıyı giriniz: 5
 Ne işlemi yapmak istiyorsunuz(+, -, *, /)? +
 5 + 3 = 8
 """
+ilk_sayı=noktalısayı(değeral("Birinci sayıyı giriniz: "))
+ikinci_sayı=noktalısayı(değeral("İkinci sayıyı giriniz: "))
+işlem=değeral("Ne işlemi yapmak istiyorsunuz(+, -, *, /, ^)? ")
+
+if işlem=="+":
+    yazdır(ilk_sayı+ikinci_sayı)
+elif işlem=="-":
+    yazdır(ilk_sayı-ikinci_sayı)
+elif işlem=="*":
+    yazdır(ilk_sayı*ikinci_sayı)
+elif işlem=="/":
+    if ikinci_sayı == noktalısayı(0):
+        yazdır("Bölen sıfır olamaz")
+    else:
+        yazdır(ilk_sayı/ikinci_sayı)
+elif işlem == "^":
+    yazdır(ilk_sayı **ikinci_sayı)
+
+else:
+    yazdır(f"{işlem} tanımlı değil")
