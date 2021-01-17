@@ -35,4 +35,12 @@ Parolanız       : Çok uzun bir parola
 Kullanıcı adı ve parolanız toplam 45 karakterden oluşuyor!
 Kullanıcı adınız ile parolanızın  toplam uzunluğu 40 karakteri geçmemeli!
 """
-
+kullanıcı_adı=değeral("Kullanıcı adınız: ")
+parola=değeral("Parolanız       : ")
+karakter_toplamı=uzunluk(parola)+uzunluk(kullanıcı_adı)
+if karakter_toplamı>40:
+    yazdır(f"Kullanıcı adı ve parolanız toplam {karakter_toplamı} karakterden oluşuyor!")
+    yazdır("Kullanıcı adınız ile parolanızın  toplam uzunluğu 40 karakteri geçmemeli!")
+else:
+    yazdır(f"Kullanıcı adı ve parolanız toplam {karakter_toplamı} karakterden oluşuyor!")
+    yazdır("Sisteme hoşgeldiniz!")
