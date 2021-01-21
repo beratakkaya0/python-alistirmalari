@@ -11,8 +11,8 @@ Birinci sayıyı giriniz: 12
 12 sayısı 5 sayısına tam bölünmüyor.
 """
 from turkish import *
-ilk_sayı=noktalısayı(değeral("Birinci sayıyı giriniz: "))
-ikinci_sayı=noktalısayı(değeral("İkinci sayıyı giriniz: "))
+#ilk_sayı=noktalısayı(değeral("Birinci sayıyı giriniz: "))
+#ikinci_sayı=noktalısayı(değeral("İkinci sayıyı giriniz: "))
 # if ikinci_sayı==0:
     # yazdır("Hiçbir sayı sıfıra bölünemez")
 # elif ilk_sayı%ikinci_sayı==0:
@@ -25,8 +25,17 @@ Görevin kullanıcıdan iki sayı alıp bu iki sayının bölünmesiyle oluşan 
 
 
 Birinci sayıyı giriniz: 12
-İkinci sayıyı giriniz: 5
+İkinci sayıyı giriniz: 5  
 Bölüm: 2
 Kalan: 2
 
 """
+birinci_sayı=noktalısayı(değeral("Birinci sayıyı giriniz: "))
+ikinci_sayı=noktalısayı(değeral("İkinci sayıyı giriniz: "))
+if ikinci_sayı==0:
+    yazdır("Hiçbir sayı sıfıra bölünemez")
+else:
+    bölüm=birinci_sayı//ikinci_sayı
+    kalan=birinci_sayı%ikinci_sayı
+    yazdır(f"Bölüm: {bölüm}")
+    yazdır(f"Kalan: {kalan}")
