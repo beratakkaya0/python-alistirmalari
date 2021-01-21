@@ -46,3 +46,7 @@ Taban sayısını giriniz: 3
 Üs sayısını giriniz: 4
 3^4 = 81
 """
+taban=noktalısayı(değeral("Taban sayısını giriniz: "))
+üs=noktalısayı(değeral("Üs sayısını giriniz: "))
+sonuç=taban**üs
+yazdır(f"{taban}^{üs} = {sonuç}")
