@@ -13,9 +13,20 @@ Birinci sayıyı giriniz: 12
 from turkish import *
 ilk_sayı=noktalısayı(değeral("Birinci sayıyı giriniz: "))
 ikinci_sayı=noktalısayı(değeral("İkinci sayıyı giriniz: "))
-if ikinci_sayı==0:
-    yazdır("Hiçbir sayı sıfıra bölünemez")
-elif ilk_sayı%ikinci_sayı==0:
-    yazdır(f"{ilk_sayı} sayısı {ikinci_sayı} sayısına tam bölünüyor.")
-else:
-    yazdır(f"{ilk_sayı} sayısı {ikinci_sayı} sayısına tam bölünmüyor.")
+# if ikinci_sayı==0:
+    # yazdır("Hiçbir sayı sıfıra bölünemez")
+# elif ilk_sayı%ikinci_sayı==0:
+    # yazdır(f"{ilk_sayı} sayısı {ikinci_sayı} sayısına tam bölünüyor.")
+# else:
+    # yazdır(f"{ilk_sayı} sayısı {ikinci_sayı} sayısına tam bölünmüyor.")
+
+"""
+Görevin kullanıcıdan iki sayı alıp bu iki sayının bölünmesiyle oluşan bölüm ve kalanı bulmak
+
+
+Birinci sayıyı giriniz: 12
+İkinci sayıyı giriniz: 5
+Bölüm: 2
+Kalan: 2
+
+"""
