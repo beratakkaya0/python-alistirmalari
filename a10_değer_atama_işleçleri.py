@@ -12,8 +12,8 @@ from turkish import *
 sayı = tamsayı(değeral("Bir sayı giriniz: "))
 kelime = değeral("Bir kelime giriniz: ")
 ######################################################
-
-
+sayı=sayı+8
+kelime=kelime.upper()
 
 
 ######################################################
