@@ -12,3 +12,7 @@ Görevin 1'den 100'e kadar olan sayıları ekrana yazdıran bir program yapmak
 """
 
 from turkish import *
+a=1
+while a<101:
+    yazdır(a)
+    a+=1
