@@ -56,19 +56,9 @@ Alt sınır: 5
 alt_sınır=tamsayı(değeral("Alt sınır:"))
 üst_sınır=tamsayı(değeral("Üst sınır:"))
 i=alt_sınır
-kalan=alt_sınır%2
-kalan_2=üst_sınır%2
-while kalan==0 and kalan_2==0 and üst_sınır>=i:
-    yazdır(i)
-    i+=2
-while kalan==1 and kalan_2==1 and üst_sınır>i:
-    yazdır(i+1)
-    i+=2
-while kalan==1 and kalan_2==0 and üst_sınır>i:
-    yazdır(i+1)
-    i+=2
-while kalan==0 and kalan_2==1 and üst_sınır>i:
-    yazdır(i)
-    i+=2
+while i<=üst_sınır:
+    if i % 2 == 0:
+        yazdır(i)
+    i+=1
 
 
