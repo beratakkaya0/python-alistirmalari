@@ -33,12 +33,25 @@ Alt sınır: 4
 .
 11
 12
-
+"""
+# alt_sınır=tamsayı(değeral("Alt sınır:"))
+# üst_sınır=tamsayı(değeral("Üst sınır:"))
+# i=alt_sınır
+# while i<=üst_sınır:
+    # yazdır(i)
+    # i+=1
 
 """
-alt_sınır=tamsayı(değeral("Alt sınır:"))
-üst_sınır=tamsayı(değeral("Üst sınır:"))
-i=alt_sınır
-while i<=üst_sınır:
-    yazdır(i)
-    i+=1
+Şimdi kullanıcıdan aldığın alt ve üst sınır arasındaki çift sayıları
+yazdıran bir program yazman gerekiyor.
+
+Alt sınır: 5
+Üst sınır: 12
+
+6
+8
+10
+12
+"""
+
+
