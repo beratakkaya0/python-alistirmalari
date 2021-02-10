@@ -36,3 +36,9 @@ Alt sınır: 4
 
 
 """
+alt_sınır=tamsayı(değeral("Alt sınır:"))
+üst_sınır=tamsayı(değeral("Üst sınır:"))
+i=alt_sınır
+while i<=üst_sınır:
+    yazdır(i)
+    i+=1
