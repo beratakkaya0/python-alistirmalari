@@ -86,5 +86,10 @@ Sayıları yazarken arada 1 saniye boşluk olmalı. Örneğin 10 yazdıktan sonr
 9 yazmalı. Bunu yapmak için sleep fonksiyonundan yararlanabilirsin. sleep(10) dersen program orada
 10 saniye bekleyip kaldığı yerden devam eder.
 """
-
-
+i=tamsayı(değeral("Bir sayı giriniz: "))
+yazdır("Geri sayım başladı.")
+while i>=0:
+    yazdır(i)
+    i-=1
+    sleep(1)
+yazdır("Geri sayım bitti!")
