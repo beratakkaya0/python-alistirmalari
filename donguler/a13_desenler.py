@@ -3,11 +3,18 @@
 desen oluşturman gerekiyor. 
 
 Bir sayı giriniz: 5
+Ikinci sayıyi giriniz: 5
 
 *
 **
 ***
 ****
 *****
+
+
 """
-from turkish import *
+satır_sayısı=int(input("Bir sayı giriniz: "))
+i=1
+while i<=satır_sayısı :
+   print(i*'*')
+   i+=1
