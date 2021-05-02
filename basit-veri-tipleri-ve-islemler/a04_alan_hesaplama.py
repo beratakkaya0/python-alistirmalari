@@ -8,14 +8,11 @@ Alan 6.25
 """
 
 
-from turkish import *
 
-#################################
-# uzunluk=noktalısayı(değeral("Bahçenin bir kenar uzunluğunu giriniz: "))
-# alan=uzunluk*uzunluk
+uzunluk=(float(input("Bahçenin bir kenar uzunluğunu giriniz: ")))
+alan=uzunluk*uzunluk
+print(alan)
 
-
-#################################
 """Görevin ilk aşamasını başarıyla tamamladın. İkinci
 aşamada bir dairenin alanını hesaplaman gerekiyor. 
 Yarıçapının uzunluğu r olan bir dairenin alanı π*r²'dir.
@@ -28,12 +25,12 @@ Dairenin yarıçapını giriniz: 3
 Alan: 28.27
 """
 
-# from math import pi
-##################################
-# r=noktalısayı(değeral("Dairenin yarıçapını giriniz: "))
-# alan=pi*r**2
-
-##################################
+from math import pi
+r=(float(input("Dairenin yarıçapını giriniz: ")))
+alan=pi*r**2
+print(alan)
+from math import pi
+r=(("Dairenin yarıçapını giriniz: "))
 
 """Görevin ikinci aşamasını başarıyla tamamladın. Son aşamada
 bir kenar uzunluğu verilen eşkenar üçgenin alanını hesaplaman
@@ -46,8 +43,7 @@ Eşkenar üçgenin bir kenar uzunluğunu giriniz: 3
 Alan: 3.89
 """
 
-#################################
-kenar=noktalısayı(değeral("Eşkenar üçgenin bir kenar uzunluğunu giriniz: "))
+kenar=(float(input("Eşkenar üçgenin bir kenar uzunluğunu giriniz: ")))
 alan=kenar**2* karekök(3)/4
 
 
@@ -55,6 +51,5 @@ alan=kenar**2* karekök(3)/4
 
 
 
-################################
 
-yazdır(f"Alan: {alan:.2f}")
+print(f"Alan: {alan:.2f}")

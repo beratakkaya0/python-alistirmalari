@@ -14,17 +14,16 @@ B aldınız.
 Notunuz: 1000
 Hatalı değer girdiniz.
 """
-from turkish import *
-girilen_not=noktalısayı(değeral("Notunuzu giriniz: "))
+girilen_not=float(input("Notunuzu giriniz: "))
 if girilen_not <0 or girilen_not>100:
-    yazdır("Hatalı değer girdiniz.")
+    print("Hatalı değer girdiniz.")
 elif girilen_not <= 40:
-    yazdır("F aldınız.")
+    print("F aldınız.")
 elif girilen_not<=54:
-    yazdır("D aldınız.")
+    print("D aldınız.")
 elif girilen_not<=69:
-    yazdır("C aldınız.")
+    print("C aldınız.")
 elif girilen_not<=84:
-    yazdır("B aldınız.")
+    print("B aldınız.")
 else:
-    yazdır("A aldınız.")
+    print("A aldınız.")

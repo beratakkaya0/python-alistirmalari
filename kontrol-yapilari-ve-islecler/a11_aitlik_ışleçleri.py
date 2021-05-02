@@ -12,14 +12,13 @@ Bir harf giriniz: g
 
 Girdiğiniz harf kelimenin içinde yoktur.
 """
-from turkish import *
-kelime=değeral("Bir kelime giriniz: ")
-harf=değeral("Bir harf giriniz: ")
-harfin_uzunluğu=uzunluk(harf)
+kelime=input("Bir kelime giriniz: ")
+harf=input("Bir harf giriniz: ")
+harfin_uzunluğu=len(harf)
 if harfin_uzunluğu==1:
     if harf in kelime:
-        yazdır("Girdiğiniz harf kelimenin içinde vardır.")
+        print("Girdiğiniz harf kelimenin içinde vardır.")
     else:
-        yazdır("Girdiğiniz harf kelimenin içinde yoktur.")
+        print("Girdiğiniz harf kelimenin içinde yoktur.")
 else:
-    yazdır("Girdiğiniz değer hatalıdıdır.")
+    print("Girdiğiniz değer hatalıdıdır.")

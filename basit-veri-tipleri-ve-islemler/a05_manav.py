@@ -14,22 +14,21 @@ Para üstünüz ... TL'dir.
 Yine bekleriz.
 """
 
-from turkish import *
 
 elma_kg = 2.5
 muz_kg = 8
 
 ##########################################
-yazdır(f"Elmanın kilosu {elma_kg} lira, muzun kilosu {muz_kg} lira.")
-elma=noktalısayı(değeral("Kaç kilo elma alacaksınız? "))
-muz=noktalısayı(değeral("Kaç kilo muz alacaksınız? "))
+print(f"Elmanın kilosu {elma_kg} lira, muzun kilosu {muz_kg} lira.")
+elma=(float(input("Kaç kilo elma alacaksınız? ")))
+muz=(float(input("Kaç kilo muz alacaksınız? "))
 toplam=elma*elma_kg+muz*muz_kg
-yazdır(f"Toplam {toplam} TL tuttu")
-para=noktalısayı(değeral("Kaç TL veriyorsunuz? "))
+print(f"Toplam {toplam} TL tuttu")
+para=float(input("Kaç TL veriyorsunuz? "))
 para_üstü=para-toplam
 
 ##########################################
 
-yazdır(f"Para üstünüz {para_üstü:.2f} TL'dir")
-yazdır('Yine bekleriz.')
+print(f"Para üstünüz {para_üstü:.2f} TL'dir")
+print('Yine bekleriz.')
 

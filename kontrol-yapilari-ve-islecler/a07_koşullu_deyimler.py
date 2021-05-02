@@ -9,17 +9,14 @@ Kaç yaşındasınız? 20
 Oy kullanabilirsiniz.
 """
 
-from turkish import *
+yas=int(input("Kaç yaşındasınız? "))
+if yas>=18:
+   print("Oy kullanabilirsiniz.")
+elif yas<18:
+     print("Oy kullanamazsınız.")
+else:
+    print('Lutfen gecerli bir deger girin')
 
-#############################################
-
-# yaş=değeral("Kaç yaşındasınız? ")
-# if yaş>=18:
-    # yazdır("Oy kullanabilirsiniz.")
-# else:
-    # yazdır("Oy kullanamazsınız.")
-
-#############################################
 """
 
 Görevin kullanıdan kullanıcı adı ve parola alıp toplam uzunluğu 40'tan az
@@ -35,17 +32,17 @@ Parolanız       : Çok uzun bir parola
 Kullanıcı adı ve parolanız toplam 45 karakterden oluşuyor!
 Kullanıcı adınız ile parolanızın  toplam uzunluğu 40 karakteri geçmemeli!
 """
-# kullanıcı_adı=değeral("Kullanıcı adınız: ")
-# parola=değeral("Parolanız       : ")
-# karakter_toplamı=uzunluk(parola)+uzunluk(kullanıcı_adı)
-# if karakter_toplamı>40:
-    # yazdır(f"Kullanıcı adı ve parolanız toplam {karakter_toplamı} karakterden oluşuyor!")
-    # yazdır("Kullanıcı adınız ile parolanızın  toplam uzunluğu 40 karakteri geçmemeli!")
-# else:
-    # yazdır(f"Kullanıcı adı ve parolanız toplam {karakter_toplamı} karakterden oluşuyor!")
-    # yazdır("Sisteme hoşgeldiniz!")
+kullanıcı_adı=input("Kullanıcı adınız: ")
+parola=input("Parolanız       : ")
+karakter_toplamı=uzunluk(parola)+uzunluk(kullanıcı_adı)
+if karakter_toplamı>40:
+    print(f"Kullanıcı adı ve parolanız toplam {karakter_toplamı} karakterden oluşuyor!")
+    print("Kullanıcı adınız ile parolanızın  toplam uzunluğu 40 karakteri geçmemeli!")
+else:
+    print(f"Kullanıcı adı ve parolanız toplam {karakter_toplamı} karakterden oluşuyor!")
+    print("Sisteme hoşgeldiniz!")
 
-#############################################
+
 """
 Görevin kullanıcının girdiği aritmetik işlece göre işlem yapan bir program yazmak.
 
@@ -54,23 +51,23 @@ Birinci sayıyı giriniz: 5
 Ne işlemi yapmak istiyorsunuz(+, -, *, /)? +
 5 + 3 = 8
 """
-ilk_sayı=noktalısayı(değeral("Birinci sayıyı giriniz: "))
-ikinci_sayı=noktalısayı(değeral("İkinci sayıyı giriniz: "))
-işlem=değeral("Ne işlemi yapmak istiyorsunuz(+, -, *, /, ^)? ")
+ilk_sayı=float(input("Birinci sayıyı giriniz: "))
+ikinci_sayı=float(input("İkinci sayıyı giriniz: "))
+işlem=input("Ne işlemi yapmak istiyorsunuz(+, -, *, /, ^)? ")
 
 if işlem=="+":
-    yazdır(ilk_sayı+ikinci_sayı)
+    print(ilk_sayı+ikinci_sayı)
 elif işlem=="-":
-    yazdır(ilk_sayı-ikinci_sayı)
+    print(ilk_sayı-ikinci_sayı)
 elif işlem=="*":
-    yazdır(ilk_sayı*ikinci_sayı)
+    print(ilk_sayı*ikinci_sayı)
 elif işlem=="/":
     if ikinci_sayı == noktalısayı(0):
-        yazdır("Bölen sıfır olamaz")
+        print("Bölen sıfır olamaz")
     else:
-        yazdır(ilk_sayı/ikinci_sayı)
+        print(ilk_sayı/ikinci_sayı)
 elif işlem == "^":
-    yazdır(ilk_sayı **ikinci_sayı)
+    print(ilk_sayı **ikinci_sayı)
 
 else:
-    yazdır(f"{işlem} tanımlı değil")
+    print(f"{işlem} tanımlı değil")

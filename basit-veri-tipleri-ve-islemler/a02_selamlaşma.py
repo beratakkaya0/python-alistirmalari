@@ -4,9 +4,9 @@ Merhaba, ben Python. Senin adın ne?
 Merhaba Şahin.
 """
 
-from turkish import *
-# isim=değeral("Merhaba, ben Python. Senin adın ne?\n")
-# yazdır(f"Merhaba {isim}.")
+isim=input("Merhaba, ben Python. Senin adın ne?\n")
+print(f"Merhaba {isim}.")
+
 
 ######################################################
 """Görevin ilk aşamasını başarıyla tamamladın. Şimdi
@@ -14,7 +14,7 @@ aynı görevi farklı bir yöntemle yapman gerekiyor.
 Sadece ### ile işaretlenmiş bölgeler arasına kod 
 yazabilirsin.
 """
-isim=değeral("Merhaba, ben Python. Senin adın ne?\n")
+isim=input("Merhaba, ben Python. Senin adın ne?\n")
 selamlama_yazısı=f"Merhaba {isim}."
 
 
@@ -23,4 +23,4 @@ selamlama_yazısı=f"Merhaba {isim}."
 
 
 #######################################################
-yazdır(selamlama_yazısı)
+print(selamlama_yazısı)

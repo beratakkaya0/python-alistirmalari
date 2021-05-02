@@ -6,15 +6,12 @@ Kaç paran var Abidin? 240
 Her bir çocuğa 20 TL düşüyor.
 """
 
-from turkish import *
 
-################################################
-# para=noktalısayı(değeral("Kaç paran var Abidin?\n "))
-# kişi_başı_para=para/4/3
+para=float(input("Kaç paran var Abidin?\n "))
+kişi_başı_para=para/4/3
 
-#################################################
 
-# yazdır(f"Her bir çocuğa {kişi_başı_para:.3g} TL düşüyor")
+print(f"Her bir çocuğa {kişi_başı_para:.3g} TL düşüyor")
 
 """Bu kolaydı! Hadi şimdi biraz matematik yapalım. Abidin *aynı* parayı eşit paylaştırmak
 yerine çocuklarının yaşlarıyla doğru orantılı olacak şekilde paylaştırmak istiyor.
@@ -29,13 +26,14 @@ Helin 20 TL alacak.
 Selin 28 TL alacak.
 Pelin 16 TL alacak.
 """
-helin=tamsayı(değeral("Helin kaç yaşında? "))
-selin=tamsayı(değeral("Selin kaç yaşında? "))
-pelin=tamsayı(değeral("pelin kaç yaşında? "))
-para=noktalısayı(değeral("Kaç paran var Abidin? "))
-heline_düşen_para=para/4/(helin+selin+pelin)*helin
-seline_düşen_para=para/4/(helin+selin+pelin)*selin
-peline_düşen_para=para/4/(helin+selin+pelin)*pelin
-yazdır(f"Helin {heline_düşen_para} TL alacak.")
-yazdır(f"Selin {seline_düşen_para} TL alacak.")
-yazdır(f"Pelin {peline_düşen_para} TL alacak.")
+helin_yasi=int(input("Helin kaç yaşında? "))
+selin_yasi=int(input("Selin kaç yaşında? "))
+pelin_yasi=int(input("pelin kaç yaşında? "))
+Abidinin_parasi=float(input("Kaç paran var Abidin? "))
+toplam_yas=helin_yasi+selin_yasi+pelin_yasi
+heline_düşen_para=para/4/(toplam_yas)*helin_yasi
+seline_düşen_para=para/4/(toplam_yas)*selin_yasi
+peline_düşen_para=para/4/(toplam_yas)*pelin_yasi
+print(f"Helin {heline_düşen_para} TL alacak.")
+print(f"Selin {seline_düşen_para} TL alacak.")
+print(f"Pelin {peline_düşen_para} TL alacak.")

@@ -11,12 +11,11 @@ Görevin 1'den 100'e kadar olan sayıları ekrana yazdıran bir program yapmak
 100
 """
 
-from turkish import *
 from time import sleep
-# a=1
-# while a<101:
-    # yazdır(a)
-    # a+=1
+a=1
+while a<101:
+    print(a)
+    a+=1
 
 
 """
@@ -35,12 +34,12 @@ Alt sınır: 4
 11
 12
 """
-# alt_sınır=tamsayı(değeral("Alt sınır:"))
-# üst_sınır=tamsayı(değeral("Üst sınır:"))
-# i=alt_sınır
-# while i<=üst_sınır:
-    # yazdır(i)
-    # i+=1
+alt_sınır=int(input("Alt sınır:"))
+üst_sınır=int(input("Üst sınır:"))
+i=alt_sınır
+while i<=üst_sınır:
+    print(i)
+    i+=1
 
 """
 Şimdi kullanıcıdan aldığın alt ve üst sınır arasındaki çift sayıları
@@ -54,13 +53,13 @@ Alt sınır: 5
 10
 12
 """
-# alt_sınır=tamsayı(değeral("Alt sınır:"))
-# üst_sınır=tamsayı(değeral("Üst sınır:"))
-# i=alt_sınır
-# while i<=üst_sınır:
-    # if i % 2 == 0:
-        # yazdır(i)
-    # i+=1
+alt_sınır=int(input("Alt sınır:"))
+üst_sınır=int(input("Üst sınır:"))
+i=alt_sınır
+while i<=üst_sınır:
+    if i % 2 == 0:
+        print(i)
+    i+=1
 
 """
 Sayaçlar konusundaki son görevin verilen bir değerden geri sayım yapan program yazmak.
@@ -86,10 +85,10 @@ Sayıları yazarken arada 1 saniye boşluk olmalı. Örneğin 10 yazdıktan sonr
 9 yazmalı. Bunu yapmak için sleep fonksiyonundan yararlanabilirsin. sleep(10) dersen program orada
 10 saniye bekleyip kaldığı yerden devam eder.
 """
-i=tamsayı(değeral("Bir sayı giriniz: "))
-yazdır("Geri sayım başladı.")
+i=int(input("Bir sayı giriniz: "))
+print("Geri sayım başladı.")
 while i>=0:
-    yazdır(i)
+    print(i)
     i-=1
     sleep(1)
-yazdır("Geri sayım bitti!")
+print("Geri sayım bitti!")
