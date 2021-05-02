@@ -24,4 +24,13 @@ ulasabilirsin.
 from random import randint
 
 tuttugum_sayi = randint(1, 100)
+tahmin=int (input('Aklimdan bir sayi tuttum;bil bakalim ne tuttum.'))
+while True:
+    if tuttugum_sayi>tahmin:
+        print('asagi')
+    elif tuttugum_sayi<tahmin:
+        print('yukari')
+    elif tuttugum_sayi==tahmin:
+        print(f'Bildin!Aklimdan {tuttugum_sayi} tutmustum.')
+        break
 
