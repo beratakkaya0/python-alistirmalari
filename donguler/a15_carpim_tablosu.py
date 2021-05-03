@@ -15,4 +15,10 @@ Bir sayi giriniz: 6
 6 x 9 = 54                                                              
 6 x 10 = 60 
 """
-
+sayi=int (input('Bir sayi giriniz: '))
+a=int(input('Carpim tablosu kac satir olsun?\n'))
+i=1
+while i<=a: 
+    sonuc=i*sayi
+    print(f'{sayi} x {i} = {sonuc}')
+    i+=1
