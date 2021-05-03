@@ -12,11 +12,11 @@ Bir sayı giriniz: 5
 
 
 """
-satır_sayısı=int(input("Bir sayı giriniz: "))
-i=1
-while i<=satır_sayısı :
-   print(i*'*')
-   i+=1
+#  satır_sayısı=int(input("Bir sayı giriniz: "))
+#  i=1
+#  while i<=satır_sayısı :
+   #  print(i*'*')
+   #  i+=1
 
 """
 Ikinci asamada kullanicidan alacagin sayiya kadar olan sayilarla asagidaki deseni olusturman
@@ -33,3 +33,8 @@ Bir sayi giriniz: 9
 88888888
 999999999
 """
+satir_sayisi=int (input('Bir sayi giriniz: '))
+i=1
+while i<=satir_sayisi:
+    print(i*str(i))
+    i+=1    
