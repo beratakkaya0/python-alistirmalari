@@ -60,3 +60,28 @@ Bir sayi giriniz: 4
 
 1 + 12 + 123 + 1234 = 1370
 """
+sayi=int(input('Bir ve dokuz arasinda bir sayi giriniz: '))
+i=0
+while 1>sayi or sayi>9:
+    sayi=int(input('Lutfen bir ve dokuz arasinda sayi girin:'))
+    
+toplam = 0
+while i < sayi:
+    a = 1
+    yazdirilacak_sayi = ''
+    while a <= i+1:
+        yazdirilacak_sayi += str(a)
+        a += 1
+
+    print(yazdirilacak_sayi, end='')
+    toplam += int(yazdirilacak_sayi)
+
+    
+    if i == sayi - 1:
+        print(' = ', end='')
+    else:
+        print(' + ', end='')
+
+    i += 1
+
+print(toplam)
