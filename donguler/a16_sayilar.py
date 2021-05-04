@@ -16,4 +16,6 @@ while a!=0:
     a=int(input('Sayi girin: '))
     toplam+=a 
     sayi_alma+=1
-print(toplam//(sayi_alma-1))
+a=sayi_alma-1
+ortalama=toplam//(a)
+print(f'{a} sayi girdiniz:Girdiginiz sayilarin ortalamasi {ortalama}.')
