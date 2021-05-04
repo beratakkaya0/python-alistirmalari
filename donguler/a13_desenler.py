@@ -38,3 +38,16 @@ i=1
 while i<=satir_sayisi:
     print(i*str(i))
     i+=1    
+
+
+"""
+Ikinci asamayi tersten yapmaya ne dersin?
+
+Bir sayi giriniz: 5
+
+5
+44
+333
+2222
+11111
+"""
