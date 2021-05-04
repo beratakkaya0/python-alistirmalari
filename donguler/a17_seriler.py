@@ -35,19 +35,28 @@ Bir sayi giriniz: 4
 44
 55
 """
-sayi=int(input('Bir sayi giriniz: '))
-i=2
-toplam=0
-a=1
-while a<=sayi:
-    c=int(a*str(i))
-    toplam+=c 
-    print(f'{c}',end='')   
-    if a==sayi:
-        print(' = ',toplam,end='')   
-    else:
-        print(' + ',end='')
-    a+=1
+# sayi=int(input('Bir sayi giriniz: '))
+# i=2
+# toplam=0
+# a=1
+# while a<=sayi:
+#     c=int(a*str(i))
+#     toplam+=c 
+#     print(f'{c}',end='')   
+#     if a==sayi:
+#         print(' = ',toplam,end='')   
+#     else:
+#         print(' + ',end='')
+#     a+=1
 #  print(toplam)
 #
-print()
+# print()
+
+"""
+Kullanicidan 1 ve 9 arasinda bir sayi girmesini iste ve aldigin sayiyi kullanarak 
+asagidaki gibi bir seri olustur. Sonra bu serinin toplamini bul.
+
+Bir sayi giriniz: 4
+
+1 + 12 + 123 + 1234 = 1370
+"""
