@@ -33,11 +33,11 @@ Bir sayi giriniz: 9
 88888888
 999999999
 """
-satir_sayisi=int (input('Bir sayi giriniz: '))
-i=1
-while i<=satir_sayisi:
-    print(i*str(i))
-    i+=1    
+#  satir_sayisi=int (input('Bir sayi giriniz: '))
+#  i=1
+#  while i<=satir_sayisi:
+    #  print(i*str(i))
+    #  i+=1
 
 
 """
@@ -51,3 +51,12 @@ Bir sayi giriniz: 5
 2222
 11111
 """
+satir_sayisi=int(input('Bir sayi giriniz: '))
+i=0
+a=satir_sayisi
+while i<satir_sayisi: 
+    i+=1
+
+    print(i*str(a))
+    a-=1
+    
