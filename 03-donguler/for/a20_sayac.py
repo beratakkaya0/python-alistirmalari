@@ -11,3 +11,7 @@ Sayi limiti: 5
 15
 16
 """
+alt_sinir=int(input('Alt siniri giriniz: '))
+sayi_limiti=int(input('Sayi limtini girniz: '))
+for a in range(alt_sinir,alt_sinir+sayi_limiti):
+    print(a)
