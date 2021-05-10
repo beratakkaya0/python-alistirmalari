@@ -16,30 +16,23 @@ Ust siniri giriniz: 15
 
 
 # >>>
-while True:
-    i=1
-    deger=input('Bir sayi giriniz (cikmak icin q): ')
-    if deger =='q':
-        print('cikiliyor...')
-        break
+alt_sinir=int(input('Alt siniri giriniz: '))
+ust_sinir=int(input('Ust siniri giriniz: '))
+for x in range(alt_sinir+1,ust_sinir) :
+    deger=x
     deger=int(deger)
 # <<<
     bolunme=0
 # >>>
-    while i<=deger:
+    for i in range(1,deger+1):
 # <<<
         kalan=deger%i
-        i+=1
         if kalan==0:
             bolunme+=1
-            if bolunme==2 :
-                a=i-1
             if bolunme>2:
                 break
 # >>>
     if bolunme == 2:
-        print(f'{deger} sayisi asaldir.')
-    elif bolunme!=2:
-        print(f'{deger} sayisi asal degildir.') 
-        print(f'{a} sayisina bolunuyo.')
+        print(i,end=' ')
+print()
 # <<<
