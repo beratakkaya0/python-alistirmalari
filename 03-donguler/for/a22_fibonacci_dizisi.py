@@ -16,3 +16,13 @@ N sayisini giriniz: 7
 8
 
 """
+n=int(input('N sayisini giriniz: '))
+fibonacci_listesi=[0,1]
+for b in range(n-2):
+    if b==0:
+        print(0)
+        print(1)
+    c=fibonacci_listesi[-1]
+    d=fibonacci_listesi[-2]
+    fibonacci_listesi.append(c+d)
+    print(c+d)
