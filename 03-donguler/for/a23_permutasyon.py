@@ -22,4 +22,9 @@ Ikinci sayiyi giriniz: 7
 7-6
 7-7
 """
+ilk_sayi=int(input('Ilk sayiyi giriniz: '))
+ikinci_sayi=int(input('Ikinci sayisyi giriniz: ')) 
+for a in range(ilk_sayi,ikinci_sayi+1):
+    for b in range(ilk_sayi,ikinci_sayi+1):
+        print(f'{a}-{b}')
 
