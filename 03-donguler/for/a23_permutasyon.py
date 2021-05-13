@@ -27,4 +27,5 @@ ikinci_sayi=int(input('Ikinci sayisyi giriniz: '))
 for a in range(ilk_sayi,ikinci_sayi+1):
     for b in range(ilk_sayi,ikinci_sayi+1):
         print(f'{a}-{b}')
+    print()
 
