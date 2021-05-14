@@ -37,5 +37,16 @@ Bir sayi giriniz: 3
 
 
 from random import randint
-sayi_listesi = [randint(1, 10) for _ in range(15)]
+sayi_listesi = [randint(1, 10) for _ in range(10)]
 print(f'{sayi_listesi=}')
+sayi=int(input('Bir sayi giriniz: '))
+sayac=0
+for i in sayi_listesi:
+    if i == sayi:
+        sayac+=1
+if sayac ==1:
+    print(f'{sayi} sayisi listede bir kez geciyor.')
+elif sayac==0:
+    print(f'{sayi} sayisi listede gecmiyor.')
+else:
+    print(f'{sayi} sayisi listede birden fazla kez geciyor.')
