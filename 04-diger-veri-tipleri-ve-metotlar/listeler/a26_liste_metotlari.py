@@ -28,3 +28,21 @@ program yazmak.
 2
 >>> quit
 """
+liste=list()
+while True:
+    deger=input('>>> ').split(' ')
+    if deger[0] == 'print':
+        print(liste)
+    elif deger[0] == 'append':
+        liste.append(deger[1])
+    elif deger[0] == 'insert':
+        deger[1]=int(deger[1])
+        liste.insert(deger[1],deger[2])
+    elif deger[0] == 'remove':
+        liste.remove(deger[1])
+    elif deger[0] == 'clear':
+        liste.clear()
+    elif deger[0] == 'count':
+        print(liste.count(deger[1]))
+    elif deger[0] == 'quit':
+        break
