@@ -32,3 +32,15 @@ Bir cumle giriniz: i am perfect coder man
 'r': 2
 't': 1
 """
+cumle=input('Bir cumle giriniz: ')
+cumle_kumesi=set(cumle)
+cumle_listesi=list(cumle_kumesi)
+cumle_listesi.sort()
+print(cumle_listesi)
+cumlenin_uzunlugu=len(cumle_listesi)
+sayac=0
+while sayac<cumlenin_uzunlugu:
+    print(cumle_listesi[sayac],': ',cumle.count(cumle_listesi[sayac]),sep='')
+    sayac+=1
+
+
