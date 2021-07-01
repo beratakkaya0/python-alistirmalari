@@ -43,4 +43,11 @@ while sayac<cumlenin_uzunlugu:
     print(cumle_listesi[sayac],': ',cumle.count(cumle_listesi[sayac]),sep='')
     sayac+=1
 
+"""
+sondaki donguyu for dongusune cevirirsen isin icinden daha kolay cikarsin
+"""
+
+for karakter in cumle_listesi:
+    print(karakter,': ', cumle.count(karakter), sep='')
+
 
